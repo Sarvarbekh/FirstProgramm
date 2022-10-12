@@ -8,6 +8,6 @@ public abstract class Animal {
     public abstract void voice();
 
     public void about(){
-        System.out.println("age = " + age);
+        System.out.println("Yoshi = " + age);
     }
 }
