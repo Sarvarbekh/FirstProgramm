@@ -4,17 +4,27 @@ public class Example {
    private String name;
    private String email;
    private String adres;
+   private String color;
 
     public Example() {
     }
 
-    public Example(String name, String email, String adres) {
+    public Example(String name, String email, String adres, String color) {
         this.name = name;
         this.email = email;
         this.adres = adres;
+        this.color = color;
     }
 
-    public String getName() {
+   public String getColor(){
+         return color;
+      }
+   
+   public void setColor(String color){
+        this.color = color;
+   }
+   
+   public String getName() {
         return name;
     }
 
