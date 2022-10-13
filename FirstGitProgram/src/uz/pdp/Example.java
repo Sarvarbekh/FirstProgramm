@@ -5,15 +5,17 @@ public class Example {
    private String email;
    private String adres;
    private String color;
+   private int age;
 
     public Example() {
     }
 
-    public Example(String name, String email, String adres, String color) {
+    public Example(String name, String email, String adres, String color, int age) {
         this.name = name;
         this.email = email;
         this.adres = adres;
         this.color = color;
+        this.age = age;
     }
 
    public String getColor(){
@@ -50,5 +52,13 @@ public class Example {
 
     public static void main(String[] args) {
 
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }
